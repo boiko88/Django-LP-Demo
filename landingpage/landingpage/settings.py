@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # my_apps
-    'comingsoon',
+    'landingdemo',
 ]
 
 MIDDLEWARE = [
