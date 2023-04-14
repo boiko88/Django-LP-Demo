@@ -10,6 +10,7 @@ urlpatterns = [
     path('welding_page', views.weldingPage, name='welding_page'),
     path('drink_page', views.drinkPage, name='drink_page'),
     path('blog_page', views.blogPage, name='blog_page'),
+    path('actual_blog_page', views.actualBlogPage, name='actual_blog_page'),
 ]
 
 

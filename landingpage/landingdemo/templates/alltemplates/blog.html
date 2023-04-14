@@ -38,6 +38,9 @@
               <h1 class="mb-3">Blog Page</h1>
               <a class="text-white" href="{% url 'landingdemo:home' %}">Go to the Home Page</a>
               <p class="mb-5">Here you can read <strong>the blog</strong> and the latest news!</p>
+              {% for i in blogs %}
+                <p>{{i.blog_name}}</p>
+              {% endfor %}
               <div class="input-group input-group-newsletter">
               </div>
             </div>

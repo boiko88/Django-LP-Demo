@@ -1,5 +1,4 @@
 from django.contrib import admin
+from landingdemo.models import PersonalBlog
 
-# Register your models here.
-
-# I will add models here
+admin.site.register(PersonalBlog)

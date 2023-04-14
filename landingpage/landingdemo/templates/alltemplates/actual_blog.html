@@ -1,0 +1,112 @@
+<head>
+    <title>My Forum</title>
+    <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+     }
+     header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+     }
+     h1 {
+      margin: 0;
+     }
+     nav {
+      background-color: #555;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+     }
+     nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+     }
+     nav ul li {
+      margin: 0 10px;
+     }
+     nav ul li a {
+      color: white;
+      text-decoration: none;
+     }
+     main {
+      padding: 10px;
+     }
+     section {
+      background-color: #EEE;
+      border: 1px solid #AAA;
+      margin-bottom: 10px;
+      padding: 10px;
+     }
+     form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: white;
+      border: 1px solid #AAA;
+     }
+     form label {
+      margin-bottom: 5px;
+     }
+     form input, textarea {
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #AAA;
+      border-radius: 3px;
+     }
+     form input[type="submit"] {
+      background-color: #555;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+     }
+    </style>
+   </head>
+   <body>
+    <header>
+     <h1>My Forum</h1>
+    </header>
+    <nav>
+     <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Forums</a></li>
+      <li><a href="#">Members</a></li>
+      <li><a href="#">About</a></li>
+     </ul>
+     <ul>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Register</a></li>
+     </ul>
+    </nav>
+    <main>
+     <section>
+      <h2>General Discussion</h2>
+      <p>Here you can talk about anything you want.</p>
+     </section>
+     <section>
+      <h2>Technical Support</h2>
+      <p>Need help with something technical? Ask here.</p>
+     </section>
+     <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <label for="message">Message:</label>
+      <textarea name="message" id="message"></textarea>
+      <input type="submit" value="Submit">
+     </form>
+    </main>
+   </body>
+   </html>
+   ```
+   

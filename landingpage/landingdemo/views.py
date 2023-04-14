@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from landingdemo.models import PersonalBlog
 
 
 def home(request):
@@ -31,7 +32,14 @@ def drinkPage(request):
     return render(request, template, context)
 
 
-def blogPage(request):
+def actualBlogPage(request):
     context = {}
+    template = 'alltemplates/actual_blog.html'
+    return render(request, template, context)
+
+
+def blogPage(request):
+    blogs = PersonalBlog.objects.all()
+    context = {'blogs': blogs}
     template = 'alltemplates/blog.html'
     return render(request, template, context)
